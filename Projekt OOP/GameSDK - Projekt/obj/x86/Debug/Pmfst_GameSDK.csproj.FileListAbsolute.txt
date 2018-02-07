@@ -1,0 +1,106 @@
+C:\Users\divna\Desktop\Santa v02\bin\Debug\Pmfst_GameSDK.exe.config
+C:\Users\divna\Desktop\Santa v02\bin\Debug\backgrounds\back.jpg
+C:\Users\divna\Desktop\Santa v02\bin\Debug\sprites\elf.png
+C:\Users\divna\Desktop\Santa v02\bin\Debug\sprites\fireCracker.png
+C:\Users\divna\Desktop\Santa v02\bin\Debug\sprites\gift.png
+C:\Users\divna\Desktop\Santa v02\bin\Debug\sprites\ginger.png
+C:\Users\divna\Desktop\Santa v02\bin\Debug\sprites\santa.png
+C:\Users\divna\Desktop\Santa v02\bin\Debug\Pmfst_GameSDK.XML
+C:\Users\divna\Desktop\Santa v02\bin\Debug\Pmfst_GameSDK.exe
+C:\Users\divna\Desktop\Santa v02\bin\Debug\Pmfst_GameSDK.pdb
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.csprojResolveAssemblyReference.cache
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.BGL.resources
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.Properties.Resources.resources
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.csproj.GenerateResource.Cache
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.exe
+C:\Users\divna\Desktop\Santa v02\obj\x86\Debug\Pmfst_GameSDK.pdb
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\backgrounds\back.jpg
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\sprites\elf.png
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\sprites\fireCracker.png
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\sprites\gift.png
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\sprites\ginger.png
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\sprites\santa.png
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\Pmfst_GameSDK.exe.config
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\Pmfst_GameSDK.XML
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\Pmfst_GameSDK.exe
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\bin\Debug\Pmfst_GameSDK.pdb
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\obj\x86\Debug\Pmfst_GameSDK.BGL.resources
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\obj\x86\Debug\Pmfst_GameSDK.Properties.Resources.resources
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\obj\x86\Debug\Pmfst_GameSDK.csproj.GenerateResource.Cache
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\obj\x86\Debug\Pmfst_GameSDK.exe
+C:\Users\divna\Desktop\Vjezba 09 - pocetno\obj\x86\Debug\Pmfst_GameSDK.pdb
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.exe.config
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.XML
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.exe
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.pdb
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\bedroom.gif
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\football.jpg
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\forest.jpg
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\woods.gif
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\back.jpg
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.exe
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.pdb
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.csprojResolveAssemblyReference.cache
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.BGL.resources
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.Properties.Resources.resources
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.csproj.GenerateResource.Cache
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zivot.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\Sand.jpg
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\bibleThump.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\DarkTest.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\SrceUvaceno.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\metak.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\IsaacDescent.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Isaac_Fate.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextIntro.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextInfo.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextLose.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextWin.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp0.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp1.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp2.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp3.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi1.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi2.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi3.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi4.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi5.png
+C:\Users\Korisnik\Desktop\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi6.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\bedroom.gif
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\football.jpg
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\forest.jpg
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\woods.gif
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\back.jpg
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\backgrounds\Sand.jpg
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\bibleThump.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\DarkTest.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp0.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp1.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp2.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Hp3.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\IsaacDescent.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Isaac_Fate.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\metak.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\SrceUvaceno.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextInfo.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextIntro.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextLose.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\TextWin.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zivot.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi1.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi2.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi3.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi4.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi5.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\sprites\Zombi6.png
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.exe.config
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.XML
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.exe
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\bin\Debug\Pmfst_GameSDK.pdb
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.csprojResolveAssemblyReference.cache
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.BGL.resources
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.Properties.Resources.resources
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.csproj.GenerateResource.Cache
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.csproj.CoreCompileInputs.cache
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.exe
+D:\tonip\Downloads\Projekt OOP\GameSDK - Projekt\obj\x86\Debug\Pmfst_GameSDK.pdb

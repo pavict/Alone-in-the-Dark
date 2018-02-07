@@ -1,0 +1,13 @@
+﻿<Properties StartupConfiguration="{ECBAFEF3-72E6-4B43-B15D-D482A22413F5}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="BGL.cs">
+    <Files>
+      <File FileName="BGL.cs" Line="566" Column="7" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Pmfst__GameSDK PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
