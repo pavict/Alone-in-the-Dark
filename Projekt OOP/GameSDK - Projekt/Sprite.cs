@@ -974,7 +974,7 @@ namespace Pmfst_GameSDK
         #endregion
        
     }
-    public abstract class Lik : Sprite //baza za svakog lika iz nje izvlacis ostale likove
+    public abstract class Lik : Sprite
     {
         private int _HP;
 
@@ -988,17 +988,13 @@ namespace Pmfst_GameSDK
         {
         }
     }
-    public class Heroj:Lik//Glavni lik BibleThump
+    public class Heroj:Lik
     {
         public Heroj(string spriteImage, int posX, int posY) : base(spriteImage, posX, posY)
         {
-            base.HP = 2;//minjas koliko hpa imas na startu
-            //Namistia san ona animirana srca na dnu i Label gori automatski reagiraju na hp
-            //nemoj stavljat povise 3 jer nije mi se dalo vise srca radit u photshopu
+            base.HP = 2;
         }
     }
-    //Class zombie ode
-    //izvedi je iz ove abstraktne klasse
     public class Zombie:Lik
     {
         private int _Brzina;
@@ -1017,7 +1013,7 @@ namespace Pmfst_GameSDK
 
 
 
-    public class Bullet:Sprite//Metak
+    public class Bullet:Sprite
     {
         private int _Brzina;
 
@@ -1028,14 +1024,12 @@ namespace Pmfst_GameSDK
         }
         private bool _Active;
 
-        public bool Active//Koristis ovo da znas jel metak leti ili ne.Ako je ispaljen vec onda je True ako nije False.
+        public bool Active
         {
             get { return _Active; }
             set { _Active = value; }
         }
-        //nezz zasto ovo neradi...
-        //radi kad koristin movesimple a neradi sa movesteps...
-        //ima nesto sa malin i velikin x i y
+        //radi kad koristim movesimple a ne radi sa movesteps...
        /* override public int Y
         {
             get
@@ -1082,4 +1076,3 @@ namespace Pmfst_GameSDK
     }
   
 }
- //asdfghjkl

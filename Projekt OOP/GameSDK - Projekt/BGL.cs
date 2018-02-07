@@ -549,7 +549,6 @@ namespace Pmfst_GameSDK
         /* Game variables */
 
         // deklaracija objekata
-        //likovi ode dodaj jos zombije
         Heroj GlavniLik;
         Bullet Metak;
         Bullet Zivot;
@@ -577,34 +576,34 @@ namespace Pmfst_GameSDK
 
             //2. add sprites
             //-------------------------------------------------
-            GlavniLik = new Heroj("sprites\\bibleThump.png", GameOptions.RightEdge / 2-20, GameOptions.DownEdge / 2-39);//nediraj ove brojeve
-            GlavniLik.RotationStyle="AllAround";//omogucava liku da se rotira nemoj zaboravit OVO!
+            GlavniLik = new Heroj("sprites\\bibleThump.png", GameOptions.RightEdge / 2-20, GameOptions.DownEdge / 2-39);
+            GlavniLik.RotationStyle="AllAround";
             GlavniLik.AddCostumes("sprites\\Isaac_Fate.png");//Dodatni kostimi za glavnog lika
-            GlavniLik.AddCostumes("sprites\\IsaacDescent.png");//dodava jedan po jedan ne vise od jednom jer zna nekad zamrznit igricu kad promini se vise kostima odjednom
+            GlavniLik.AddCostumes("sprites\\IsaacDescent.png");//dodaje jedan po jedan ne vise od jednom jer zna nekad zamrznit igricu kad promini se vise kostima odjednom
             //-------------------------------------------------
 
             //-------------------------------------------------
-            Metak = new Bullet("sprites\\Metak.png", GlavniLik.X+30,GlavniLik.Y+20);//metak netriba se rotirat
+            Metak = new Bullet("sprites\\Metak.png", GlavniLik.X+30,GlavniLik.Y+20);
             //-------------------------------------------------
 
             //-------------------------------------------------     
-            Maska = new Sprite("sprites\\DarkTest.png", 0, 0);//ovo ti je maska koja zamraci sve
+            Maska = new Sprite("sprites\\DarkTest.png", 0, 0);
             Maska.SetTransparentColor(Color.White);//nepotrebno 
             
             //-------------------------------------------------
 
             //-------------------------------------------------
-            Zivot = new Bullet("sprites\\Zivot.png", 0, 0);//Zivot je kodiran ka metak jer mi se nije dalo radit jos jednu klasu
+            Zivot = new Bullet("sprites\\Zivot.png", 0, 0);
             Zivot.AddCostumes("sprites\\SrceUvaceno.png");
             //-------------------------------------------------
 
             //-------------------------------------------------
-            TextBbl = new Sprite("sprites\\TextIntro.png", 180, GameOptions.DownEdge - 115);// ovo ti je onaj text na dnu
+            TextBbl = new Sprite("sprites\\TextIntro.png", 180, GameOptions.DownEdge - 115);
             TextBbl.AddCostumes("sprites\\TextInfo.png", "sprites\\TextWin.png", "sprites\\TextLose.png");//svi textovi
             //-------------------------------------------------
 
             //-------------------------------------------------
-            SRCA = new Sprite("sprites\\Hp0.png", 20, 450);//Ovo su ti ona srca na dnu 
+            SRCA = new Sprite("sprites\\Hp0.png", 20, 450);
             SRCA.AddCostumes("sprites\\Hp1.png", "sprites\\Hp2.png", "sprites\\Hp3.png");
             //-------------------------------------------------
             BrziZombi = new Zombie("sprites\\Zombi6.png", 20, 20,7);
@@ -639,8 +638,6 @@ namespace Pmfst_GameSDK
             //tada se poziva izvršavanje metode BGL_testEvent(1234)
 
             //3. scripts that start
-            //Game.StartScript(Metoda);
-            //napravi skriptnu ZombieMove
             Game.StartScript(Metoda);
             Game.StartScript(ZivotMove);
             Game.StartScript(Text123);
@@ -655,7 +652,7 @@ namespace Pmfst_GameSDK
         //Hp gori doli eventi
         public delegate void HPDelegat(int broj);
         public event HPDelegat HpUpEvent;
-        public event HPDelegat HpDownEvent;//HpDownEvent.Invoke(Koliko zivota zelis da izgubi);
+        public event HPDelegat HpDownEvent;
         
 
         private void BGL_HpUp(int broj)
@@ -671,7 +668,7 @@ namespace Pmfst_GameSDK
             }
                       
         }
-        private void BGL_HpDown(int broj)//koristi ovo za smanjivanje zivota kad te udre zombi 
+        private void BGL_HpDown(int broj)
         {
             GlavniLik.HP -= broj;
             if (GlavniLik.HP >= 0)
@@ -684,20 +681,19 @@ namespace Pmfst_GameSDK
             }
             if(GlavniLik.HP==0)
             {
-                IsaacLost.Invoke(SCORE);//ovo 3 zaminit sa score;
+                IsaacLost.Invoke(SCORE);
             }
         }
+
         //eventi za kraj igre
-        public delegate void GameEnd(int broj);//Pobjeda i Poraz
+        public delegate void GameEnd(int broj);
         public event GameEnd IsaacWon;
         public event GameEnd IsaacLost;
 
 
-        public void BGL_GG(int broj)//pobjeda poziva se pomovu IsaacWon.Invoke(Score)
+        public void BGL_GG(int broj)
         {
-            //Teski spageti ode nediraj nista samo pozovi
-            //nije stabilno more zamrznit igricu
-            //divna je rekla da ce pogledat i popravit hahahahaha
+            
             GlavniLik.Y -=25;
             GlavniLik.X -= 66;
 
@@ -719,16 +715,15 @@ namespace Pmfst_GameSDK
             START = false;
             ISPIS = "POBJEDA Score: " + broj;
             
-            Wait(15);//nepotrebno al nediraj
+            Wait(15);
         }
         public void BGL_Lose(int broj)//poraz
         {
-            //ova je malo pouzdanija radi skoro svaki put
             GlavniLik.Width = 150;
             GlavniLik.Height = 109;
-            GlavniLik.NextCostume();//bilo je nesto sa ovin nextCoustume nebi prominilo kostim nego bi zamrzlo igricu 
+            GlavniLik.NextCostume();
             GlavniLik.SetVisible(false);
-            Wait(0.1);//pauza od 0.1 i dodavanje kostima posebno,ne sve od jednom popravi
+            Wait(0.1);
             GlavniLik.NextCostume();
             GlavniLik.SetVisible(true);
             BrziZombi.SetVisible(false);
@@ -744,9 +739,8 @@ namespace Pmfst_GameSDK
             
             ISPIS = "DEFEAT! Score: " + broj;
             
-            Wait(15);//nepotrebno al nediraj
-
-            //nezz jel bi dodava kad pritisne npr R da se restartira igrica
+            Wait(15);
+            
         }
         /* Event handlers - metode*/
 
@@ -760,10 +754,10 @@ namespace Pmfst_GameSDK
             Metak.SetVisible(false);
             Metak.Active = false;
         }
-        private int Metoda()//glavna metoda spojeno metak i glavni lik u jednu skriptu
+        private int Metoda()
         {
             SetHpImageto(GlavniLik.HP);
-            while(START) //ili neki drugi uvjet
+            while(START)
             {
                 GlavniLik.PointToMouse(sensing.Mouse);
 
@@ -778,7 +772,7 @@ namespace Pmfst_GameSDK
                         Metak.Active = true;
                     }
                 }
-                try//mora san priko exception jer overide nije radija
+                try
                 {
                     if (Metak.Active)
                     {
@@ -801,16 +795,16 @@ namespace Pmfst_GameSDK
             return 0;
         }
 
-        private int ZivotMove()//skripta da zivot leta okolo
+        private int ZivotMove()
         {
-            Zivot.Brzina = 5;//moglo se u konstruktoru
-            Random Rnd = new Random();//RNG
+            Zivot.Brzina = 5;
+            Random Rnd = new Random();
             while(START)
             {
-                if(!Zivot.Active)//Ako Vec nije stvoren zivot
+                if(!Zivot.Active)
                 {
-                    int kantun = Rnd.Next(1, 5);//Odaberi Jedan od cetri kantuna
-                    if (kantun == 1)//Ovo je da odabere stranu s koje ce se zivot stvorit i di ce krenit
+                    int kantun = Rnd.Next(1, 5);
+                    if (kantun == 1)
                     {
                         Zivot.Y = 1;
                         Zivot.X = Rnd.Next(200, 500);
@@ -837,46 +831,46 @@ namespace Pmfst_GameSDK
                     Zivot.Active = true;
                     Zivot.SetVisible(true);
                 }
-                else//Ako zivot postoji 
+                else
                     try
                     {
-                        Zivot.MoveSteps(Zivot.Brzina-3);//Mici zivot naprid nekon brzinon
-                        if(Zivot.TouchingSprite(Metak))//ako se sudari sa Metkon
+                        Zivot.MoveSteps(Zivot.Brzina-3);
+                        if(Zivot.TouchingSprite(Metak))
                         {
-                            HpUpEvent.Invoke(1);//Event koji povecava zivot za 1
-                            Zivot.Brzina+=2;//ubzaj zivot
+                            HpUpEvent.Invoke(1);
+                            Zivot.Brzina+=2;
                             ResetBullet();
                             Zivot.NextCostume();//promini kostim u onaj sta ima +1 na sebi
                             Wait(1);
                             Zivot.NextCostume();
-                            throw new ArgumentException();//pribaci na catch
+                            throw new ArgumentException();
                         }
                         Wait(0.02);
                         
                     }
                     catch (Exception)//ako je zivot udrija u rub ili metak
                     {
-                        Zivot.X = 0;//vjerojatno netriba ovo al zna se zbagat bez ovoga doda po 2 zivota nezz kako
+                        Zivot.X = 0;
                         Zivot.Y = 0;
                         Zivot.Active = false;
                         Zivot.SetVisible(false);
-                        Wait(10);//zivot se stvara svako 10 sec 
+                        Wait(10);
                         
                     }
             }
             return 0;
         }
-        public int Text123()//pribaci sa intro texta na info text
+        public int Text123()
         {
             Wait(5);
             TextBbl.NextCostume();
 
             return 0;
         }
-        public void SetHpImageto(int broj)//namista ona animirana srca na broj
+        public void SetHpImageto(int broj)//namista animirana srca na broj
         {
 
-            while (broj != SRCA.CostumeIndex)//costune index pocinje od 0.1hp je index 1.0hp je index 1.
+            while (broj != SRCA.CostumeIndex)
             {
                 SRCA.NextCostume();
                 Wait(0.3);
